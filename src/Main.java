@@ -1,6 +1,13 @@
 public class Main {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Icecream icecream = new Icecream();
+        Topping top = new Topping();
+        Size size = new Size();
+
+        new List(icecream);
+        new List(top);
+        new List(size);
     }
 }
+
+
